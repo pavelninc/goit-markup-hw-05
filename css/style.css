@@ -131,6 +131,7 @@
    letter-spacing: 0.02em;
    padding-top: 32px;
    padding-bottom: 32px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
  .site-nav .site-link:hover,
@@ -160,6 +161,7 @@
    align-items: center;
    padding-top: 32px;
    padding-bottom: 32px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
  .contacts-icon {
@@ -232,6 +234,7 @@
    padding: 10px 32px;
    min-width: 216px;
    border-color: transparent;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
  .hero-button:hover,
@@ -432,6 +435,7 @@
    justify-content: center;
    align-items: center;
    border-radius: 50%;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .team-soc-link:hover,
  .team-soc-link:focus {
@@ -709,6 +713,7 @@
    padding-top: 6px;
    padding-right: 22px;
    padding-bottom: 6px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .everyone {
    padding-left: 25px;
@@ -747,6 +752,7 @@
  
  .work-gallery-link {
    display: block;
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
  .work-gallery-link:hover,
