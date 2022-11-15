@@ -820,8 +820,9 @@ display: block;
    transition: transform 250ms ease;
  }
  
- .galery-list:hover .gallery-content {
+ .work-gallery-link:focus .gallery-content, .work-gallery-link:hover .gallery-content  {
    transform: translateY(0);
+   opacity: 1;
  }
  
  .gallery-item {
